@@ -1,0 +1,14 @@
+$padded-x-value: 150px;
+
+.padded-x {
+
+	&-right {
+		padding-right: $padded-x-value;
+	}
+
+	&-left {
+		padding-left: $padded-x-value;
+	}
+
+}
+

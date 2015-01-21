@@ -1,16 +1,16 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: white;
-$navbar-hover-color: $yellow;
-$navbar-font-family: $montserrat;
-$navbar-bg: transparent;
+$navbar-color: black ;
+$navbar-hover-color: black;
+$navbar-font-family: $header-font;
+$navbar-bg: white;
 
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 50px;
-$navbar-vertical-padding: 5px;
+$navbar-height: 30px;
+$navbar-vertical-padding: 15px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
 $navbar-border-bottom-color: grey;
