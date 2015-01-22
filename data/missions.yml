@@ -1,0 +1,14 @@
+# partenaires.yml
+
+- name: Deezer
+  picture: deezer.jpeg
+  description: Consulting 
+  Année : 2011
+- name: Zaho
+  picture: http://placehold.it/150x150
+  description: Management 
+  Année : 2008/2014
+- name: Axa
+  picture: http://placehold.it/150x150
+  description: Consulting
+  Année : 2015

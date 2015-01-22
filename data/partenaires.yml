@@ -1,0 +1,18 @@
+# partenaires.yml
+- name: CSDEM
+  picture: note.png
+  description: Consulting
+  annee : 2011
+- name: Deezer
+  picture: deezer.jpeg
+  description: Consulting 
+  annee : 2011
+- name: Zaho
+  picture: zaho.png
+  description: Management 
+  annee : 2008/2014
+- name: Axa
+  picture: axa2.jpeg
+  description: Consulting
+  annee : 2015
+

@@ -3,24 +3,32 @@ title: contact
 ---
 
 <div class="text-center padded">
-<h1>The Team</h1>
-	<div class="container">
-  		<div class="row">
-    		<div class="col-xs-12 col-sm-6 col-md-6 text-center">
-    		<div class="padded-x-left">
-      			<img src="http://placehold.it/200x200" class= "img-circle">
-        		<h2>Francoise</h2>
-        	</div>
-      		</div> 
-      		<div class="col-xs-12 col-sm-6 col-md-6  text-center">
-      		<div class="padded-x-right">
-	      		<img src="http://placehold.it/200x200" class= "img-circle">
-	        	<h2>Romain</h2>
-	        </div>
-	      	</div> 
-    	</div> 
-	</div> 
+  <h2>Leave your mail</h2> 
+  <form class="form-inline">
+    <input type="email" placeholder="bob@gmail.com" class="form-control">
+    <input type="submit" value="Suscribe" class="btn btn-danger">
+  </form>
+</div>
 
-	
-	
+
+<div class="container padded">
+  <h1 class='text-center'>The Team</h1>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+      <div class="padded-x-left">
+        <%= image_tag "photo_francoise.jpg", class:"img-circle"%> 
+        <h4>@francoiserrault</h4>
+      </div>
+    </div> 
+    <div class="col-xs-12 col-sm-6 col-md-6  text-center">
+      <div class="padded-x-right">
+        <%= image_tag "romain.jpeg", class:"img-circle"%>
+        <h4>@romainvivien</h4>
+      </div>
+    </div> 
+  </div> 
+</div> 
+
+
+
 </div>

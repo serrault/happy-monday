@@ -1,0 +1,19 @@
+---
+partenaires 
+---
+
+<div class="container text-center padded">
+	<div class="row">
+		<%data.partenaires.each do |partenaire| %>
+    	<div class="col-xs-12 col-sm-4 text-center">
+				<div class="carddata">
+	      	<h1><%=partenaire.name%></h1>
+	      	<%= image_tag partenaire.picture, class: "img-circle" %>
+	      	<p><%=partenaire.description%></p>
+	      	<p><%=partenaire.annee%></p>
+      	</div>
+     	</div>
+    <% end %>
+  </div>
+</div>
+    		
