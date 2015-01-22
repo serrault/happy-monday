@@ -9040,18 +9040,25 @@ button.close {
  * ------------------------------------- */
 /* line 5, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/layout/_utilities.css.scss */
 .padded {
-  padding-top: 10em;
-  padding-bottom: 10em; }
+  padding-top: 4em;
+  padding-bottom: 4em; }
 
 /* line 10, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/layout/_utilities.css.scss */
 .bg-black {
   background-color: #222222;
   color: white; }
 
-/* line 5, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/pages/_contact.css.scss */
+/* line 1, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/components/_card.css.scss */
+.carddata {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  min-height: 300px; }
+
+/* line 6, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/pages/_contact.css.scss */
 .padded-x-right {
   padding-right: 150px; }
-/* line 9, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/pages/_contact.css.scss */
+/* line 10, /Users/francoiseserrault/frontend wagon/happy-monday/source/stylesheets/pages/_contact.css.scss */
 .padded-x-left {
   padding-left: 150px; }
 
